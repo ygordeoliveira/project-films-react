@@ -56,3 +56,13 @@
 .description p {
     line-height: 1.4rem;
 }
+
+@media (max-width: 480px) and (min-width: 200px) {
+    .movie-page .movie-card img {
+        width: 300px;
+    }
+
+    .movie-page .info {
+        margin-left: 20px;
+    }
+}

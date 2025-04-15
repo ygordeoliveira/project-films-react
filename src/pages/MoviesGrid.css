@@ -60,3 +60,32 @@
     background-color: transparent;
     color: #f7d354;
 }
+
+@media (max-width: 578px) and (min-width: 380px) {
+    .movies-container div {
+      width: 48%; /* 2 por linha com pequeno espaçamento */
+    }
+
+    .container .title {
+        font-size: 30px;
+    }
+
+    .movie-card {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 380px) and (min-width: 200px) {
+    .movies-container div {
+        width: 49%; 
+      /* 2 por linha com pequeno espaçamento */
+    }
+
+    .container .title {
+        font-size: 25px;
+    }
+
+    .movies-container .movie-card {
+        font-size: 12px;
+    }
+}

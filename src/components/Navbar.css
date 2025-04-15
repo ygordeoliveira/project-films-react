@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    gap: 1rem;
+    padding: 1rem;
     background-color: #121212;
 }
 
@@ -39,4 +40,14 @@
 #navbar form button:hover {
     background-color: transparent;
     color: #f7d354;
+}
+
+@media (max-width: 576px) and (min-width: 380px) {
+    #navbar {
+        font-size: 10px;
+    }
+
+    #navbar form {
+        width: 60%;
+    }
 }
